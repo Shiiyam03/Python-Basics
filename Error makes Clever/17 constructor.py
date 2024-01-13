@@ -43,7 +43,12 @@ dell.display()
 class laptop:
     pass
 
-#1
+
+
+
+""" 1.Create a class called student
+create a variable = name and register number using constructor.
+Create a function called display which should display the name and register number of the student."""
 class student:
     def __init__(self):
         self.name=""
@@ -64,7 +69,12 @@ viimal.register="713321TS055"
 shiiyam.display()
 viimal.display()
 
-#2
+
+
+
+""" 2.Create a class called fruit
+Create a variable called colour using __init__ method
+Create a object called apple "Pass the colour variable as a parameter through object". """
 class fruit:
     def __init__(self,col):
         self.color="black"
@@ -72,7 +82,13 @@ class fruit:
 apple=fruit("red")
 print(apple.color)
 
-#3
+
+
+
+""" 3.Create a class teacher 
+Create a variable = name and register number using constructor
+Create a function called display which should display the name and register number of the teacher
+Create t1 and t2 object and pass the name and reg no value through object. """
 class teacher:
     def __init__(self,name,reg):
         self.name=name
@@ -87,7 +103,13 @@ t2=teacher("Vimal","55")
 t1.display()
 t2.display()
 
-#4
+
+
+
+""" 4.Create  a class called calcuator
+Create 2 varoiable a and b
+Create a function called add, sub, mul, div all functions should take 2 variables as parameter.
+Pass a and b value through object()."""
 class calculator:
     def __init__(self,num1,num2):
         self.a=num1
