@@ -1,4 +1,4 @@
-"""#single inheritance
+#single inheritance
 class dad():
     def phone(self):
         print("Dad's Phone")
@@ -65,7 +65,7 @@ class son3(dad):
 
 s2=son2()
 s2.money()
-"""
+
 #hybrid inheritance
 class dad():
     def money(self):
