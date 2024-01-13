@@ -1,4 +1,4 @@
-"""class company():
+class company():
     def __init__(self):
         self.__companyName="Google" #__ = access specifier:which can only access within the method
 
@@ -8,7 +8,7 @@
 c1=company()
 c1.companyName()
 print(c1.__companyName)
-"""
+
 class company():
     def __init__(self):
         self._companyName="Google" #_ = access specifier(protected)
