@@ -1,4 +1,4 @@
-"""class goa:
+class goa:
     name="Shiyam"
     drink="RC"
     def party(self):
@@ -26,8 +26,10 @@ print(ramesh.drink)
 
 suresh.drink="nope"
 print(suresh.drink)
-"""
-#1
+
+""" 1.Create a class called laptop and create a following variables and functions.
+Variables => Price, Processor, Ram
+Create Object HP, Dell, Lenovo. """
 class laptop:
     price=""
     processor=""
