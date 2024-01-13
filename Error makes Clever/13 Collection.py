@@ -1,4 +1,4 @@
-"""#List[]
+#List[]
 a=[1,2,3,4,5,6,7]
 
 print(type(a))
@@ -39,12 +39,18 @@ a.extend(b)
 print(a)
 print(b)
 
+
+
+
 #Tuple()
 a=(1,2,3,4,1)
 b=list(a)
 
 print(a)
 print(b)
+
+
+
 
 #Set{}
 a={1,2,3,4,1}
@@ -64,7 +70,10 @@ print(a)
 
 a.pop(2)
 print(a)
-"""
+
+
+
+
 #Dictionary{}
 a={
     "name":"Shiyam R",
