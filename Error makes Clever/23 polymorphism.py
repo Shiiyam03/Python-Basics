@@ -3,7 +3,10 @@ def add(a,b,c=3):
 add(3,22)
 add(3,22,10)
 
-#1
+""" 1. Create a class called aninmal with a method sound() that prints "Animals makes a sound."
+Create a derived class called Dog that inherits from Animal and overrides the sound() method
+to print "Dog Barks". Create another derived class called Bird that inherits from animal 
+and overrides the sound() method to print "Birds Sing.". """
 class animal():
     def sound(self):
         print("Animal makes a sound")
